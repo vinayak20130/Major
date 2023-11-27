@@ -15,10 +15,10 @@ const Page = () => {
 
   return (
     <div>   
-    <Navbar></Navbar>
+    {/* <Navbar></Navbar> */}
       <Login />
       <SignInModal isOpen={isSignInModalOpen} onClose={toggleSignInModal} />
-      <Dashboard></Dashboard>
+      {/* <Dashboard></Dashboard> */}
     </div>
   );
 }
